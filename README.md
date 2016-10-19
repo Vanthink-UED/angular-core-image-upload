@@ -1,2 +1,9 @@
 # angular.core.image.upload
-an angular module for image crop and upload
+
+An directive  for image to upload and crop
+
+### Start
+
+
+
+

@@ -4,7 +4,9 @@
   "description": "an angular directive for image to upload and crop",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "gulp webserver",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,10 @@
   },
   "homepage": "https://github.com/Vanthink-UED/angular-core-image-upload#readme",
   "devDependencies": {
-    "babel-core": "^6.14.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webserver": "^0.9.1"
   },
   "dependencies": {
     "angular": "^1.5.8"
